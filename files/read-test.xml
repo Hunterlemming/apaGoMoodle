@@ -1,0 +1,22 @@
+<w:p>
+  <w:pPr>
+    <w:pStyle w:val="FeleletvlasztsHELYES"/>
+    <w:rPr>
+      <w:rFonts w:eastAsia="TimesNewRoman,Bold"/>
+    </w:rPr>
+  </w:pPr>
+  <w:r>
+    <w:rPr>
+      <w:rFonts w:eastAsia="TimesNewRoman,Bold"/>
+      <w:b/>
+      <w:bCs/>
+    </w:rPr>
+    <w:t xml:space="preserve">C) </w:t>
+  </w:r>
+  <w:r>
+    <w:rPr>
+      <w:rFonts w:eastAsia="TimesNewRoman,Bold"/>
+    </w:rPr>
+    <w:t>vizes oldata fertőtlenítő hatású.</w:t>
+  </w:r>
+</w:p>
