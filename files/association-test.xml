@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+  xmlns:v="urn:schemas-microsoft-com:vml"
+  xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+  xmlns:w10="urn:schemas-microsoft-com:office:word"
+  xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+  xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
+  xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+  xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Asszocici"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t xml:space="preserve">1. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Asszociáció kérdéstípus</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>A) Első választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>B) Második választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>C) Harmadik választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>D) Negyedik választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatE"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>E) Ötödik választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatF"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>F) Hatodik választás</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>első jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>második jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>harmadik jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>negyedik jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszE"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>ötödik jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszF"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>hatodik jó</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Asszocici"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t xml:space="preserve">2. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Melyik periódusokra igazak a felsorolt állítások</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>1. periódus</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>2. periódus</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>5. periódus</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>7. periódus</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatE"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>mindegyik</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatF"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>egyik sem</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>A legtöbb elemének a legkülső alhéja a „p”.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Itt található a legnagyobb elektronegativitású elem.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Csak s-mezőbe tartozó elemek vannak benne.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Legtöbb eleme a d-mezőbe tartozik.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Tartalmaz az f-mezőbe tartozó elemeket is.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Nyolc elem található benne.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Itt található a legnagyobb méretű elem.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Asszocici"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t xml:space="preserve">3. </w:t>
+      </w:r>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>metanol</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>etanol</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>mindegyik</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszthatD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>egyik sem</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Hétköznapi hagyományos neve faszesz.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszA"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Erősen mérgező anyag.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszD"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Tiszta, vízmentes állapotban &quot;tiszta szesznek&quot; nevezik.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Vízzel korlátlanul elegyedik.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszB"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="VlaszC"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+        <w:t>Enyhe oxidációjával aldehidet kapunk.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Normal"/>
+        <w:rPr></w:rPr>
+      </w:pPr>
+      <w:r>
+        <w:rPr></w:rPr>
+      </w:r>
+    </w:p>
+    <w:sectPr>
+      <w:type w:val="nextPage"/>
+      <w:pgSz w:w="11906" w:h="16838"/>
+      <w:pgMar w:left="1417" w:right="1417" w:header="0" w:top="1417" w:footer="0" w:bottom="1417" w:gutter="0"/>
+      <w:pgNumType w:fmt="decimal"/>
+      <w:formProt w:val="false"/>
+      <w:textDirection w:val="lrTb"/>
+      <w:docGrid w:type="default" w:linePitch="360" w:charSpace="0"/>
+    </w:sectPr>
+  </w:body>
+</w:document>
