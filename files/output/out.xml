@@ -1,2 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <text>hi</text>
+ <quiz>
+   <question type="matching">
+     <name>
+       <text>12_35-40 Asszociáció</text>
+     </name>
+     <questiontext format="html">
+       <text>&lt;![CDATA[&lt;p&gt;Párosítsa az egyes állításokhoz a megfelelő anyagokat!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;   SiO&lt;sub&gt;2&lt;/sub&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   HCl&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   Na&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   KBr&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   egyik sem&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;</text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>5.0000000</defaultgrade>
+     <penalty>0.0000000</penalty>
+     <hidden>0</hidden>
+     <shuffleanswers>false</shuffleanswers>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <subquestion format="html">
+       <text>&lt;![CDATA[&lt;p&gt;atomrácsos kristály&lt;/p&gt;]]&gt;</text>
+       <answer>
+         <text>SiO2</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>&lt;![CDATA[&lt;p&gt;szobahőmérsékleten gáz halmazállapotú&lt;/p&gt;]]&gt;</text>
+       <answer>
+         <text>HCl</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>&lt;![CDATA[&lt;p&gt;puha, szilárd anyag&lt;/p&gt;]]&gt;</text>
+       <answer>
+         <text>Na</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>&lt;![CDATA[&lt;p&gt;szilárd anyag, amely csak olvadt állapotban vezeti az elektromos áramot&lt;/p&gt;]]&gt;</text>
+       <answer>
+         <text>KBr</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>&lt;![CDATA[&lt;p&gt;molekularácsában a részecskéket hidrogén-kötések rögzítik&lt;/p&gt;]]&gt;</text>
+       <answer>
+         <text>egyik sem</text>
+       </answer>
+     </subquestion>
+   </question>
+ </quiz>
