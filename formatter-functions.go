@@ -6,6 +6,56 @@ import (
 	"os"
 )
 
+func writeFile(fileName string) {
+	header := []byte(xml.Header)
+	content, _ := xml.MarshalIndent(test, " ", "  ")
+
+	out := formatOutput(append(header, content...))
+
+	err := os.WriteFile(fileName, out, 0644)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func formatOutput(original []byte) (formatted []byte) {
+	i := 0
+	n := len(original)
+
+	for {
+		if i == n {
+			break
+		}
+
+		if i+3 < n && string(original[i:i+4]) == "&lt;" {
+			formatted = append(formatted, byte('<'))
+			i += 4
+			continue
+		}
+
+		if i+3 < n && string(original[i:i+4]) == "&gt;" {
+			formatted = append(formatted, byte('>'))
+			i += 4
+			continue
+		}
+
+		if i+4 < n && string(original[i:i+5]) == "&#xA;" {
+			formatted = append(formatted, byte('\n'))
+			i += 5
+			continue
+		}
+
+		formatted = append(formatted, original[i])
+		i += 1
+	}
+
+	return formatted
+}
+
+func toMoodleFloat(num float32) string {
+	return fmt.Sprintf("%.7f", num)
+}
+
 var test = &Quiz{
 	Questions: []XQuestion{
 		{
@@ -29,13 +79,13 @@ var test = &Quiz{
 				Value: toMoodleFloat(5.0),
 			},
 			Penalty: Penalty{
-				Value: toMoodleFloat(1 / 3),
+				Value: toMoodleFloat(1.0 / 3.0),
 			},
 			Hidden: Hidden{
 				Value: 0,
 			},
 			ShuffleAnswers: ShuffleAnswers{
-				Value: false,
+				Value: true,
 			},
 			CorrectFeedback: CorrectFeedback{
 				Format: "html",
@@ -108,18 +158,4 @@ var test = &Quiz{
 			},
 		},
 	},
-}
-
-func writeFile(fileName string) {
-	header := []byte(xml.Header)
-	out, _ := xml.MarshalIndent(test, " ", "  ")
-
-	err := os.WriteFile(fileName, append(header, out...), 0644)
-	if err != nil {
-		panic(err)
-	}
-}
-
-func toMoodleFloat(num float32) string {
-	return fmt.Sprintf("%.7f", num)
 }

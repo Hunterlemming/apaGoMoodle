@@ -5,15 +5,16 @@
        <text>12_35-40 Asszociáció</text>
      </name>
      <questiontext format="html">
-       <text>&lt;![CDATA[&lt;p&gt;Párosítsa az egyes állításokhoz a megfelelő anyagokat!&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;   SiO&lt;sub&gt;2&lt;/sub&gt;&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   HCl&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   Na&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   KBr&lt;/strong&gt;&lt;br /&gt;&lt;strong&gt;   egyik sem&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>Párosítsa az egyes állításokhoz a megfelelő anyagokat!</p>
+<p><strong>   SiO<sub>2</sub></strong><br /><strong>   HCl</strong><br /><strong>   Na</strong><br /><strong>   KBr</strong><br /><strong>   egyik sem</strong><br /></p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
      <defaultgrade>5.0000000</defaultgrade>
-     <penalty>0.0000000</penalty>
+     <penalty>0.3333333</penalty>
      <hidden>0</hidden>
-     <shuffleanswers>false</shuffleanswers>
+     <shuffleanswers>true</shuffleanswers>
      <correctfeedback format="html">
        <text></text>
      </correctfeedback>
@@ -24,31 +25,31 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text>&lt;![CDATA[&lt;p&gt;atomrácsos kristály&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>atomrácsos kristály</p>]]></text>
        <answer>
          <text>SiO2</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>&lt;![CDATA[&lt;p&gt;szobahőmérsékleten gáz halmazállapotú&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>szobahőmérsékleten gáz halmazállapotú</p>]]></text>
        <answer>
          <text>HCl</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>&lt;![CDATA[&lt;p&gt;puha, szilárd anyag&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>puha, szilárd anyag</p>]]></text>
        <answer>
          <text>Na</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>&lt;![CDATA[&lt;p&gt;szilárd anyag, amely csak olvadt állapotban vezeti az elektromos áramot&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>szilárd anyag, amely csak olvadt állapotban vezeti az elektromos áramot</p>]]></text>
        <answer>
          <text>KBr</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>&lt;![CDATA[&lt;p&gt;molekularácsában a részecskéket hidrogén-kötések rögzítik&lt;/p&gt;]]&gt;</text>
+       <text><![CDATA[<p>molekularácsában a részecskéket hidrogén-kötések rögzítik</p>]]></text>
        <answer>
          <text>egyik sem</text>
        </answer>
