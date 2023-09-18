@@ -7,34 +7,22 @@
      <questiontext format="html">
        <text> Asszociáció kérdéstípus</text>
      </questiontext>
-     <generalfeedback format="">
+     <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade></defaultgrade>
-     <penalty></penalty>
+     <defaultgrade>6.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
      <hidden>0</hidden>
-     <shuffleanswers>false</shuffleanswers>
-     <correctfeedback format="">
+     <shuffleanswers>true</shuffleanswers>
+     <correctfeedback format="html">
        <text></text>
      </correctfeedback>
-     <partiallycorrectfeedback format="">
+     <partiallycorrectfeedback format="html">
        <text></text>
      </partiallycorrectfeedback>
-     <incorrectfeedback format="">
+     <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <subquestion format="html">
-       <text>F) Hatodik választás</text>
-       <answer>
-         <text>hatodik jó</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>A) Első választás</text>
-       <answer>
-         <text>első jó</text>
-       </answer>
-     </subquestion>
      <subquestion format="html">
        <text>B) Második választás</text>
        <answer>
@@ -59,6 +47,18 @@
          <text>ötödik jó</text>
        </answer>
      </subquestion>
+     <subquestion format="html">
+       <text>F) Hatodik választás</text>
+       <answer>
+         <text>hatodik jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>A) Első választás</text>
+       <answer>
+         <text>első jó</text>
+       </answer>
+     </subquestion>
    </question>
    <question type="matching">
      <name>
@@ -67,34 +67,22 @@
      <questiontext format="html">
        <text> Melyik periódusokra igazak a felsorolt állítások</text>
      </questiontext>
-     <generalfeedback format="">
+     <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade></defaultgrade>
-     <penalty></penalty>
+     <defaultgrade>6.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
      <hidden>0</hidden>
-     <shuffleanswers>false</shuffleanswers>
-     <correctfeedback format="">
+     <shuffleanswers>true</shuffleanswers>
+     <correctfeedback format="html">
        <text></text>
      </correctfeedback>
-     <partiallycorrectfeedback format="">
+     <partiallycorrectfeedback format="html">
        <text></text>
      </partiallycorrectfeedback>
-     <incorrectfeedback format="">
+     <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <subquestion format="html">
-       <text>egyik sem</text>
-       <answer>
-         <text></text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>1. periódus</text>
-       <answer>
-         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
-       </answer>
-     </subquestion>
      <subquestion format="html">
        <text>2. periódus</text>
        <answer>
@@ -119,6 +107,18 @@
          <text></text>
        </answer>
      </subquestion>
+     <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text></text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>1. periódus</text>
+       <answer>
+         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
+       </answer>
+     </subquestion>
    </question>
    <question type="matching">
      <name>
@@ -127,22 +127,28 @@
      <questiontext format="html">
        <text> Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
      </questiontext>
-     <generalfeedback format="">
+     <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade></defaultgrade>
-     <penalty></penalty>
+     <defaultgrade>4.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
      <hidden>0</hidden>
-     <shuffleanswers>false</shuffleanswers>
-     <correctfeedback format="">
+     <shuffleanswers>true</shuffleanswers>
+     <correctfeedback format="html">
        <text></text>
      </correctfeedback>
-     <partiallycorrectfeedback format="">
+     <partiallycorrectfeedback format="html">
        <text></text>
      </partiallycorrectfeedback>
-     <incorrectfeedback format="">
+     <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
+     <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
+       </answer>
+     </subquestion>
      <subquestion format="html">
        <text>metanol</text>
        <answer>
@@ -159,12 +165,6 @@
        <text>mindegyik</text>
        <answer>
          <text>Enyhe oxidációjával aldehidet kapunk.</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>egyik sem</text>
-       <answer>
-         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
        </answer>
      </subquestion>
    </question>

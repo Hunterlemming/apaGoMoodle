@@ -2,7 +2,6 @@ package output
 
 import (
 	"encoding/xml"
-	"fmt"
 	"os"
 )
 
@@ -50,8 +49,4 @@ func formatOutput(original []byte) (formatted []byte) {
 	}
 
 	return formatted
-}
-
-func toMoodleFloat(num float32) string {
-	return fmt.Sprintf("%.7f", num)
 }

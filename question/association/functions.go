@@ -3,17 +3,30 @@ package association
 import (
 	"GoMoodle/input"
 	"GoMoodle/output"
+	"GoMoodle/util/format"
+	"encoding/xml"
 	"strings"
 )
 
 func Parse(q *input.RawQuestion) *output.Question {
 	result := &output.Question{}
 
-	result.Type = "matching"
+	setDefaults(result)
 	parseHeader(q, result)
-	parseLine(q, result)
+	parseSubQuestions(q, result)
 
 	return result
+}
+
+func setDefaults(result *output.Question) {
+	result.Type = "matching"
+	result.GeneralFeedback.Format = "html"
+	result.Penalty.Value = format.ToMoodleFloat(float32(1.0 / 3.0))
+	result.Hidden.Value = 0
+	result.ShuffleAnswers.Value = true
+	result.CorrectFeedback.Format = "html"
+	result.PartiallyCorrectFeedback.Format = "html"
+	result.IncorrectFeedback.Format = "html"
 }
 
 func parseHeader(q *input.RawQuestion, result *output.Question) {
@@ -37,17 +50,20 @@ func parseHeader(q *input.RawQuestion, result *output.Question) {
 	}
 }
 
-func parseLine(q *input.RawQuestion, result *output.Question) {
+func parseSubQuestions(q *input.RawQuestion, result *output.Question) {
 	subQuestions := make(map[string]SQPair)
 	for _, line := range q.Lines {
 		parseOption(&line, &subQuestions)
 		parseAnswer(&line, &subQuestions)
 	}
 
+	result.DefaultGrade.Value = format.ToMoodleFloat(float32(len(subQuestions)))
+
 	result.SubQuestions = []output.SubQuestion{}
 	for _, q := range subQuestions {
 		result.SubQuestions = append(result.SubQuestions, output.SubQuestion{
-			Format: "html",
+			XMLName: xml.Name{},
+			Format:  "html",
 			Text: output.Text{
 				Content: q.Question,
 			},
