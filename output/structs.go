@@ -1,4 +1,4 @@
-package main
+package output
 
 import "encoding/xml"
 
@@ -74,7 +74,7 @@ type SubQuestion struct {
 	Answer  Answer   `xml:"answer"`
 }
 
-type XQuestion struct {
+type Question struct {
 	XMLName                  xml.Name                 `xml:"question"`
 	Type                     string                   `xml:"type,attr"`
 	Name                     Name                     `xml:"name"`
@@ -91,6 +91,6 @@ type XQuestion struct {
 }
 
 type Quiz struct {
-	XMLName   xml.Name    `xml:"quiz"`
-	Questions []XQuestion `xml:"question"`
+	XMLName   xml.Name   `xml:"quiz"`
+	Questions []Question `xml:"question"`
 }

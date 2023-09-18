@@ -24,6 +24,12 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
+       <text>F) Hatodik választás</text>
+       <answer>
+         <text>hatodik jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
        <text>A) Első választás</text>
        <answer>
          <text>első jó</text>
@@ -53,12 +59,6 @@
          <text>ötödik jó</text>
        </answer>
      </subquestion>
-     <subquestion format="html">
-       <text>F) Hatodik választás</text>
-       <answer>
-         <text>hatodik jó</text>
-       </answer>
-     </subquestion>
    </question>
    <question type="matching">
      <name>
@@ -84,6 +84,18 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text></text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>1. periódus</text>
+       <answer>
+         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
        <text>2. periódus</text>
        <answer>
          <text>Nyolc elem található benne.</text>
@@ -105,18 +117,6 @@
        <text>mindegyik</text>
        <answer>
          <text></text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>egyik sem</text>
-       <answer>
-         <text></text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>1. periódus</text>
-       <answer>
-         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
        </answer>
      </subquestion>
    </question>
@@ -144,18 +144,6 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text>mindegyik</text>
-       <answer>
-         <text>Enyhe oxidációjával aldehidet kapunk.</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text>egyik sem</text>
-       <answer>
-         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
        <text>metanol</text>
        <answer>
          <text>Erősen mérgező anyag.</text>
@@ -165,6 +153,18 @@
        <text>etanol</text>
        <answer>
          <text>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>mindegyik</text>
+       <answer>
+         <text>Enyhe oxidációjával aldehidet kapunk.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
        </answer>
      </subquestion>
    </question>

@@ -1,6 +1,8 @@
-package main
+package input
 
 import (
+	"GoMoodle/util/docx"
+	lt "GoMoodle/util/linetype"
 	"encoding/xml"
 	"fmt"
 	"os"
@@ -54,7 +56,7 @@ func parseQuestions(decoder *xml.Decoder) (questions []RawQuestion, err error) {
 		}
 
 		// End Question
-		if (line.Style == LTNone || line.Style == LTNormal) && line.Content == "" {
+		if (line.Style == lt.None || line.Style == lt.Normal) && line.Content == "" {
 			questions = append(questions, *question)
 			question = &RawQuestion{}
 			continue
@@ -68,7 +70,7 @@ func parseQuestions(decoder *xml.Decoder) (questions []RawQuestion, err error) {
 }
 
 func parseLine(decoder *xml.Decoder, startElement *xml.StartElement) (result Line, err error) {
-	var paragraph P
+	var paragraph docx.P
 	if err := decoder.DecodeElement(&paragraph, startElement); err != nil {
 		return Line{}, err
 	}
