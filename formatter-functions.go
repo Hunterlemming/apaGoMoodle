@@ -6,9 +6,9 @@ import (
 	"os"
 )
 
-func writeFile(fileName string) {
+func writeFile(fileName string, quiz *Quiz) {
 	header := []byte(xml.Header)
-	content, _ := xml.MarshalIndent(test, " ", "  ")
+	content, _ := xml.MarshalIndent(*quiz, " ", "  ")
 
 	out := formatOutput(append(header, content...))
 

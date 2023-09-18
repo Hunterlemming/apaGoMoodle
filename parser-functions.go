@@ -2,10 +2,28 @@ package main
 
 import (
 	"encoding/xml"
+	"fmt"
+	"os"
 	"strings"
 )
 
-func ParseQuestions(decoder *xml.Decoder) (questions []Question, err error) {
+func ParseFile(inputName string) *[]Question {
+	f, err := os.Open(inputName)
+	if err != nil {
+		fmt.Println(err)
+	}
+	defer f.Close()
+
+	decoder := xml.NewDecoder(f)
+	questions, err := parseQuestions(decoder)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	return &questions
+}
+
+func parseQuestions(decoder *xml.Decoder) (questions []Question, err error) {
 	var question = &Question{}
 
 	for {
