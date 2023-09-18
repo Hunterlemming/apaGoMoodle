@@ -3,10 +3,11 @@ package association
 import "fmt"
 
 type SQPair struct {
-	Question string
-	Answer   string
+	OriginalIndex int
+	Question      string
+	Answer        string
 }
 
 func (p SQPair) String() string {
-	return fmt.Sprintf("[Question]: %v; [Answer]: %v", p.Question, p.Answer)
+	return fmt.Sprintf("[OriginalIndex]: %v; [Question]: %v; [Answer]: %v", p.OriginalIndex, p.Question, p.Answer)
 }

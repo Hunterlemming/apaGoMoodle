@@ -4,7 +4,6 @@ import (
 	"GoMoodle/input"
 	"GoMoodle/output"
 	"GoMoodle/util/format"
-	"encoding/xml"
 	"strings"
 )
 
@@ -51,32 +50,31 @@ func parseHeader(q *input.RawQuestion, result *output.Question) {
 }
 
 func parseSubQuestions(q *input.RawQuestion, result *output.Question) {
+	counter := 0
 	subQuestions := make(map[string]SQPair)
 	for _, line := range q.Lines {
-		parseOption(&line, &subQuestions)
-		parseAnswer(&line, &subQuestions)
+		parseOption(&line, &subQuestions, &counter)
+		parseAnswer(&line, &subQuestions, &counter)
+	}
+
+	sortedQuestions := make([]SQPair, counter)
+	for _, q := range subQuestions {
+		sortedQuestions[q.OriginalIndex] = q
 	}
 
 	result.DefaultGrade.Value = format.ToMoodleFloat(float32(len(subQuestions)))
 
 	result.SubQuestions = []output.SubQuestion{}
-	for _, q := range subQuestions {
-		result.SubQuestions = append(result.SubQuestions, output.SubQuestion{
-			XMLName: xml.Name{},
-			Format:  "html",
-			Text: output.Text{
-				Content: q.Question,
-			},
-			Answer: output.Answer{
-				Text: output.Text{
-					Content: q.Answer,
-				},
-			},
-		})
+	for _, q := range sortedQuestions {
+		c := output.SubQuestion{}
+		c.Format = "html"
+		c.Text.Content = q.Question
+		c.Answer.Text.Content = q.Answer
+		result.SubQuestions = append(result.SubQuestions, c)
 	}
 }
 
-func parseOption(l *input.Line, sqs *map[string]SQPair) {
+func parseOption(l *input.Line, sqs *map[string]SQPair, counter *int) {
 	optionParts := optionMatcher.FindStringSubmatch(l.Style)
 	if len(optionParts) == 0 {
 		return
@@ -86,15 +84,17 @@ func parseOption(l *input.Line, sqs *map[string]SQPair) {
 	val, exists := (*sqs)[sqKey]
 	if !exists {
 		val = SQPair{
-			Question: l.Content,
+			OriginalIndex: *counter,
+			Question:      l.Content,
 		}
+		*counter += 1
 	}
 
 	val.Question = l.Content
 	(*sqs)[sqKey] = val
 }
 
-func parseAnswer(l *input.Line, sqs *map[string]SQPair) {
+func parseAnswer(l *input.Line, sqs *map[string]SQPair, counter *int) {
 	answerParts := answerMatcher.FindStringSubmatch(l.Style)
 	if len(answerParts) == 0 {
 		return
@@ -104,8 +104,10 @@ func parseAnswer(l *input.Line, sqs *map[string]SQPair) {
 	val, exists := (*sqs)[sqKey]
 	if !exists {
 		val = SQPair{
-			Answer: l.Content,
+			OriginalIndex: *counter,
+			Answer:        l.Content,
 		}
+		*counter += 1
 	}
 
 	val.Answer = l.Content
