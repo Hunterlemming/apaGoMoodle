@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func ParseFile(inputName string) *[]Question {
+func ParseFile(inputName string) *[]RawQuestion {
 	f, err := os.Open(inputName)
 	if err != nil {
 		fmt.Println(err)
@@ -23,8 +23,8 @@ func ParseFile(inputName string) *[]Question {
 	return &questions
 }
 
-func parseQuestions(decoder *xml.Decoder) (questions []Question, err error) {
-	var question = &Question{}
+func parseQuestions(decoder *xml.Decoder) (questions []RawQuestion, err error) {
+	var question = &RawQuestion{}
 
 	for {
 		// Check for EOF
@@ -43,12 +43,12 @@ func parseQuestions(decoder *xml.Decoder) (questions []Question, err error) {
 		// Parse paragraph
 		line, err := parseLine(decoder, &startElement)
 		if err != nil {
-			return []Question{}, err
+			return []RawQuestion{}, err
 		}
 
 		// New Question
-		if question.Text == "" {
-			question.Text = line.Content
+		if question.HeaderText == "" {
+			question.HeaderText = line.Content
 			question.Type = line.Style
 			continue
 		}
@@ -56,12 +56,12 @@ func parseQuestions(decoder *xml.Decoder) (questions []Question, err error) {
 		// End Question
 		if (line.Style == LTNone || line.Style == LTNormal) && line.Content == "" {
 			questions = append(questions, *question)
-			question = &Question{}
+			question = &RawQuestion{}
 			continue
 		}
 
 		// Add answer to Question
-		question.Answers = append(question.Answers, line)
+		question.Lines = append(question.Lines, line)
 	}
 
 	return questions, nil

@@ -8,6 +8,6 @@ const (
 
 const (
 	QTAssociation         = "Asszocici"
-	QTAssociationOptionRE = `^Vlaszthat[A-Z]$` // Ex.: VlaszthatA = option A
-	QTAssociationAnswerRE = `^Vlasz[A-Z]$`
+	QTAssociationOptionRE = `^Vlaszthat([A-Z])$` // Ex.: VlaszthatA = option A
+	QTAssociationAnswerRE = `^Vlasz([A-Z])$`
 )

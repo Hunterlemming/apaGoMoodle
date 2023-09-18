@@ -2,10 +2,10 @@
  <quiz>
    <question type="matching">
      <name>
-       <text>1. Asszociáció kérdéstípus</text>
+       <text>1</text>
      </name>
      <questiontext format="html">
-       <text></text>
+       <text> Asszociáció kérdéstípus</text>
      </questiontext>
      <generalfeedback format="">
        <text></text>
@@ -23,13 +23,49 @@
      <incorrectfeedback format="">
        <text></text>
      </incorrectfeedback>
+     <subquestion format="html">
+       <text>A) Első választás</text>
+       <answer>
+         <text>első jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>B) Második választás</text>
+       <answer>
+         <text>második jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>C) Harmadik választás</text>
+       <answer>
+         <text>harmadik jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>D) Negyedik választás</text>
+       <answer>
+         <text>negyedik jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>E) Ötödik választás</text>
+       <answer>
+         <text>ötödik jó</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>F) Hatodik választás</text>
+       <answer>
+         <text>hatodik jó</text>
+       </answer>
+     </subquestion>
    </question>
    <question type="matching">
      <name>
-       <text>2. Melyik periódusokra igazak a felsorolt állítások</text>
+       <text>2</text>
      </name>
      <questiontext format="html">
-       <text></text>
+       <text> Melyik periódusokra igazak a felsorolt állítások</text>
      </questiontext>
      <generalfeedback format="">
        <text></text>
@@ -47,13 +83,49 @@
      <incorrectfeedback format="">
        <text></text>
      </incorrectfeedback>
+     <subquestion format="html">
+       <text>2. periódus</text>
+       <answer>
+         <text>Nyolc elem található benne.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>5. periódus</text>
+       <answer>
+         <text>Legtöbb eleme a d-mezőbe tartozik.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>7. periódus</text>
+       <answer>
+         <text>Itt található a legnagyobb méretű elem.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>mindegyik</text>
+       <answer>
+         <text></text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text></text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>1. periódus</text>
+       <answer>
+         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
+       </answer>
+     </subquestion>
    </question>
    <question type="matching">
      <name>
-       <text>3. Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
+       <text>3</text>
      </name>
      <questiontext format="html">
-       <text></text>
+       <text> Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
      </questiontext>
      <generalfeedback format="">
        <text></text>
@@ -71,5 +143,29 @@
      <incorrectfeedback format="">
        <text></text>
      </incorrectfeedback>
+     <subquestion format="html">
+       <text>mindegyik</text>
+       <answer>
+         <text>Enyhe oxidációjával aldehidet kapunk.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>egyik sem</text>
+       <answer>
+         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>metanol</text>
+       <answer>
+         <text>Erősen mérgező anyag.</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text>etanol</text>
+       <answer>
+         <text>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</text>
+       </answer>
+     </subquestion>
    </question>
  </quiz>

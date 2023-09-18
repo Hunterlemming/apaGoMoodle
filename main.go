@@ -11,6 +11,7 @@ const inputName = "./files/input/association-test.xml"
 const outputName = "./files/output/out.xml"
 
 var associationOptionMatcher *regexp.Regexp
+var associationAnswerMatcher *regexp.Regexp
 
 func main() {
 	questions := ParseFile(inputName)
@@ -19,5 +20,15 @@ func main() {
 }
 
 func init() {
-	associationOptionMatcher, _ = regexp.Compile(QTAssociationOptionRE)
+	var err error
+
+	associationOptionMatcher, err = regexp.Compile(QTAssociationOptionRE)
+	if err != nil {
+		panic(err)
+	}
+
+	associationAnswerMatcher, err = regexp.Compile(QTAssociationAnswerRE)
+	if err != nil {
+		panic(err)
+	}
 }
