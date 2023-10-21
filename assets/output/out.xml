@@ -70,7 +70,7 @@
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade>6.0000000</defaultgrade>
+     <defaultgrade>7.0000000</defaultgrade>
      <penalty>0.3333333</penalty>
      <hidden>0</hidden>
      <shuffleanswers>true</shuffleanswers>
@@ -84,15 +84,21 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text><![CDATA[<p>Csak s-mezőbe tartozó elemek vannak benne.</p>]]></text>
+       <text><![CDATA[<p>A legtöbb elemének a legkülső alhéja a „p”.</p>]]></text>
        <answer>
-         <text>1. periódus</text>
+         <text>2. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text><![CDATA[<p>Nyolc elem található benne.</p>]]></text>
+       <text><![CDATA[<p>Itt található a legnagyobb elektronegativitású elem.</p>]]></text>
        <answer>
          <text>2. periódus</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>Csak s-mezőbe tartozó elemek vannak benne.</p>]]></text>
+       <answer>
+         <text>1. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
@@ -102,19 +108,31 @@
        </answer>
      </subquestion>
      <subquestion format="html">
+       <text><![CDATA[<p>Tartalmaz az f-mezőbe tartozó elemeket is.</p>]]></text>
+       <answer>
+         <text>7. periódus</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>Nyolc elem található benne.</p>]]></text>
+       <answer>
+         <text>2. periódus</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
        <text><![CDATA[<p>Itt található a legnagyobb méretű elem.</p>]]></text>
        <answer>
          <text>7. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text><![CDATA[<p></p>]]></text>
+       <text></text>
        <answer>
          <text>mindegyik</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text><![CDATA[<p></p>]]></text>
+       <text></text>
        <answer>
          <text>egyik sem</text>
        </answer>
@@ -130,7 +148,7 @@
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade>4.0000000</defaultgrade>
+     <defaultgrade>6.0000000</defaultgrade>
      <penalty>0.3333333</penalty>
      <hidden>0</hidden>
      <shuffleanswers>true</shuffleanswers>
@@ -144,9 +162,27 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
+       <text><![CDATA[<p>Hétköznapi hagyományos neve faszesz.</p>]]></text>
+       <answer>
+         <text>metanol</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
        <text><![CDATA[<p>Erősen mérgező anyag.</p>]]></text>
        <answer>
          <text>metanol</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>Tiszta, vízmentes állapotban "tiszta szesznek" nevezik.</p>]]></text>
+       <answer>
+         <text>egyik sem</text>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>Vízzel korlátlanul elegyedik.</p>]]></text>
+       <answer>
+         <text>mindegyik</text>
        </answer>
      </subquestion>
      <subquestion format="html">
@@ -159,12 +195,6 @@
        <text><![CDATA[<p>Enyhe oxidációjával aldehidet kapunk.</p>]]></text>
        <answer>
          <text>mindegyik</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Tiszta, vízmentes állapotban "tiszta szesznek" nevezik.</p>]]></text>
-       <answer>
-         <text>egyik sem</text>
        </answer>
      </subquestion>
    </question>

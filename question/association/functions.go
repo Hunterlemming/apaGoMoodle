@@ -10,11 +10,11 @@ import (
 
 func Parse(q *input.RawQuestion) *output.Question {
 	result := &output.Question{}
-	rawSubQuestions := extractRawSubQuestions(q)
+	optionMap, sortedOptions, questions := extractRawSubQuestions(q)
 
 	setDefaults(result)
-	parseHeader(q, rawSubQuestions, result)
-	parseSubQuestions(rawSubQuestions, result)
+	parseHeader(q, &sortedOptions, result)
+	parseSubQuestions(questions, result, &optionMap)
 
 	return result
 }
@@ -30,23 +30,21 @@ func setDefaults(result *output.Question) {
 	result.IncorrectFeedback.Format = "html"
 }
 
-func extractRawSubQuestions(q *input.RawQuestion) []SQPair {
-	counter := 0
-	subQuestions := make(map[string]SQPair)
+func extractRawSubQuestions(q *input.RawQuestion) (options map[string]SQOption, sortedOptions []string, result []SQPair) {
+	options = make(map[string]SQOption)
+	sortedOptions = []string{}
+	result = []SQPair{}
+
+	// The first few lines are the options, so we can take it for granted
 	for _, line := range q.Lines {
-		parseOption(&line, &subQuestions, &counter)
-		parseAnswer(&line, &subQuestions, &counter)
+		parseOption(&line, &options, &sortedOptions)
+		parseAnswer(&line, &result, &options)
 	}
 
-	sortedQuestions := make([]SQPair, counter)
-	for _, q := range subQuestions {
-		sortedQuestions[q.OriginalIndex] = q
-	}
-
-	return sortedQuestions
+	return
 }
 
-func parseHeader(q *input.RawQuestion, rawSubQuestions []SQPair, result *output.Question) {
+func parseHeader(q *input.RawQuestion, options *[]string, result *output.Question) {
 	result.Name = output.Name{
 		Text: output.Text{
 			Content: q.HeaderText,
@@ -58,82 +56,77 @@ func parseHeader(q *input.RawQuestion, rawSubQuestions []SQPair, result *output.
 		return
 	}
 
-	var sqNames []string
-	for _, question := range rawSubQuestions {
-		nameParts := subQuestionAnswerMatcher.FindStringSubmatch(question.Question)
-		if len(nameParts) == 3 {
-			sqNames = append(sqNames, nameParts[2])
-			continue
-		}
-
-		sqNames = append(sqNames, question.Question)
+	var optionNames []string
+	for _, name := range *options {
+		fName := format.ToMoodleOptionName(name, subQuestionAnswerMatcher)
+		optionNames = append(optionNames, fName)
 	}
 
 	result.QuestionText = output.QuestionText{
 		Format: "html",
 		Text: output.Text{
-			Content: format.ToMoodleQuestionText(s[1], sqNames),
+			Content: format.ToMoodleQuestionText(s[1], optionNames),
 		},
 	}
 }
 
-func parseSubQuestions(rawSubQuestions []SQPair, result *output.Question) {
+func parseSubQuestions(rawSubQuestions []SQPair, result *output.Question, optionMap *map[string]SQOption) {
 	result.DefaultGrade.Value = format.ToMoodleFloat(float32(len(rawSubQuestions)))
 
 	result.SubQuestions = []output.SubQuestion{}
 	for _, q := range rawSubQuestions {
 		c := output.SubQuestion{}
 		textContent := format.ToMoodleParagraph(q.Answer)
-		answerTextContent := q.Question
-		answerParts := subQuestionAnswerMatcher.FindStringSubmatch(q.Question)
-		if len(answerParts) == 3 {
-			// "A) Good answer" -> "Good answer"
-			answerTextContent = answerParts[2]
-		}
+		answerTextContent := format.ToMoodleOptionName(q.Question, subQuestionAnswerMatcher)
 
 		c.Format = "html"
 		c.Text.Content = textContent
 		c.Answer.Text.Content = answerTextContent
 		result.SubQuestions = append(result.SubQuestions, c)
 	}
+
+	for _, option := range *optionMap {
+		if (option.Used) == true {
+			continue
+		}
+
+		c := output.SubQuestion{}
+		c.Format = "html"
+		c.Text.Content = ""
+		c.Answer.Text.Content = option.Value
+		result.SubQuestions = append(result.SubQuestions, c)
+	}
 }
 
-func parseOption(l *input.Line, sqs *map[string]SQPair, counter *int) {
+func parseOption(l *input.Line, optionMap *map[string]SQOption, sortedOptions *[]string) {
 	optionParts := optionDocFormattingMatcher.FindStringSubmatch(l.Style)
 	if len(optionParts) == 0 {
 		return
 	}
 
 	sqKey := optionParts[1]
-	val, exists := (*sqs)[sqKey]
-	if !exists {
-		val = SQPair{
-			OriginalIndex: *counter,
-			Question:      l.Content,
-		}
-		*counter += 1
+	(*optionMap)[sqKey] = SQOption{
+		Value: l.Content,
+		Used:  false,
 	}
-
-	val.Question = l.Content
-	(*sqs)[sqKey] = val
+	(*sortedOptions) = append((*sortedOptions), l.Content)
 }
 
-func parseAnswer(l *input.Line, sqs *map[string]SQPair, counter *int) {
+func parseAnswer(l *input.Line, sqs *[]SQPair, optionMap *map[string]SQOption) {
 	answerParts := answerDocFormattingMatcher.FindStringSubmatch(l.Style)
 	if len(answerParts) == 0 {
 		return
 	}
 
 	sqKey := answerParts[1]
-	val, exists := (*sqs)[sqKey]
-	if !exists {
-		val = SQPair{
-			OriginalIndex: *counter,
-			Answer:        l.Content,
-		}
-		*counter += 1
+	answerOption := (*optionMap)[sqKey].Value
+	(*optionMap)[sqKey] = SQOption{
+		Value: answerOption,
+		Used:  true,
 	}
 
-	val.Answer = l.Content
-	(*sqs)[sqKey] = val
+	(*sqs) = append((*sqs), SQPair{
+		Question: answerOption,
+		Answer:   l.Content,
+	})
 }

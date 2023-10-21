@@ -2,6 +2,7 @@ package format
 
 import (
 	"fmt"
+	"regexp"
 	"strings"
 )
 
@@ -21,4 +22,13 @@ func ToMoodleQuestionText(mainText string, subQuestionNames []string) string {
 	}
 
 	return fmt.Sprintf("<![CDATA[<p>%s</p><p>%s</p>]]>", strings.TrimSpace(mainText), strings.Join(fomattedSQNames, ""))
+}
+
+func ToMoodleOptionName(s string, matcher *regexp.Regexp) string {
+	parts := matcher.FindStringSubmatch(s)
+	if len(parts) == 3 {
+		// "A) Good answer" -> "Good answer"
+		return parts[2]
+	}
+	return s
 }

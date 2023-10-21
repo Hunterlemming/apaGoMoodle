@@ -2,12 +2,20 @@ package association
 
 import "fmt"
 
+type SQOption struct {
+	Value string
+	Used  bool
+}
+
+func (o SQOption) String() string {
+	return fmt.Sprintf("[Value]: %v; [Used]: %v", o.Value, o.Used)
+}
+
 type SQPair struct {
-	OriginalIndex int
-	Question      string
-	Answer        string
+	Question string
+	Answer   string
 }
 
 func (p SQPair) String() string {
-	return fmt.Sprintf("[OriginalIndex]: %v; [Question]: %v; [Answer]: %v", p.OriginalIndex, p.Question, p.Answer)
+	return fmt.Sprintf("[Question]: %v; [Answer]: %v", p.Question, p.Answer)
 }
