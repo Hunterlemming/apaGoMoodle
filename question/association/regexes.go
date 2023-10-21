@@ -2,24 +2,32 @@ package association
 
 import "regexp"
 
-var optionMatcher *regexp.Regexp
-var answerMatcher *regexp.Regexp
+var (
+	optionDocFormattingMatcher *regexp.Regexp
+	answerDocFormattingMatcher *regexp.Regexp
+	subQuestionAnswerMatcher   *regexp.Regexp
+)
 
 const (
-	optionRE = `^Vlaszthat([A-Z])$` // Ex.: VlaszthatA = option A
-	answerRE = `^Vlasz([A-Z])$`
+	optionDocFormattingRE = `^Vlaszthat([A-Z])$` // Ex.: VlaszthatA = option A
+	answerDocFormattingRE = `^Vlasz([A-Z])$`
+	subQuestionAnswerRE   = `^([A-Z])\) ([\p{L} ]+)$`
 )
 
 func InitRegexMatchers() {
-
 	var err error
 
-	optionMatcher, err = regexp.Compile(optionRE)
+	optionDocFormattingMatcher, err = regexp.Compile(optionDocFormattingRE)
 	if err != nil {
 		panic(err)
 	}
 
-	answerMatcher, err = regexp.Compile(answerRE)
+	answerDocFormattingMatcher, err = regexp.Compile(answerDocFormattingRE)
+	if err != nil {
+		panic(err)
+	}
+
+	subQuestionAnswerMatcher, err = regexp.Compile(subQuestionAnswerRE)
 	if err != nil {
 		panic(err)
 	}

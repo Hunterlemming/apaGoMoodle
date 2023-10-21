@@ -1,12 +1,13 @@
 package input
 
 import (
-	"GoMoodle/util/docx"
-	lt "GoMoodle/util/linetype"
 	"encoding/xml"
 	"fmt"
 	"os"
 	"strings"
+
+	"GoMoodle/util/docx"
+	lt "GoMoodle/util/linetype"
 )
 
 func ParseFile(inputName string) *[]RawQuestion {
@@ -26,7 +27,7 @@ func ParseFile(inputName string) *[]RawQuestion {
 }
 
 func parseQuestions(decoder *xml.Decoder) (questions []RawQuestion, err error) {
-	var question = &RawQuestion{}
+	question := &RawQuestion{}
 
 	for {
 		// Check for EOF
@@ -36,8 +37,8 @@ func parseQuestions(decoder *xml.Decoder) (questions []RawQuestion, err error) {
 		}
 
 		// Check for paragraph
-		var startElement, ok = token.(xml.StartElement)
-		var element = strings.Trim(strings.TrimSuffix(startElement.Name.Local, "\n"), " ")
+		startElement, ok := token.(xml.StartElement)
+		element := strings.Trim(strings.TrimSuffix(startElement.Name.Local, "\n"), " ")
 		if !ok || element != "p" {
 			continue
 		}
@@ -77,7 +78,21 @@ func parseLine(decoder *xml.Decoder, startElement *xml.StartElement) (result Lin
 
 	var content []string
 	for _, element := range paragraph.R {
-		content = append(content, element.T.Content)
+		align := element.RPr.VertAlign.Val
+		if align == "" {
+			content = append(content, element.T.Content)
+			continue
+		}
+
+		if align == "subscript" {
+			content = append(content, fmt.Sprintf("<sub>%s</sub>", element.T.Content))
+			continue
+		}
+
+		if align == "superscript" {
+			content = append(content, fmt.Sprintf("<sup>%s</sup>", element.T.Content))
+			continue
+		}
 	}
 
 	result.Style = paragraph.PStyle.Val

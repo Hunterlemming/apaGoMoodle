@@ -2,10 +2,10 @@
  <quiz>
    <question type="matching">
      <name>
-       <text>1</text>
+       <text>1. Asszociáció kérdéstípus</text>
      </name>
      <questiontext format="html">
-       <text> Asszociáció kérdéstípus</text>
+       <text><![CDATA[<p>Asszociáció kérdéstípus</p><p><strong>&nbsp;  Első választás</strong><br><strong>&nbsp;  Második választás</strong><br><strong>&nbsp;  Harmadik választás</strong><br><strong>&nbsp;  Negyedik választás</strong><br><strong>&nbsp;  Ötödik választás</strong><br><strong>&nbsp;  Hatodik választás</strong><br></p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
@@ -24,48 +24,48 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text>A) Első választás</text>
+       <text><![CDATA[<p>első jó</p>]]></text>
        <answer>
-         <text>első jó</text>
+         <text>Első választás</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>B) Második választás</text>
+       <text><![CDATA[<p>második jó SO<sub>4</sub><sup>2-</sup></p>]]></text>
        <answer>
-         <text>második jó</text>
+         <text>Második választás</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>C) Harmadik választás</text>
+       <text><![CDATA[<p>harmadik jó</p>]]></text>
        <answer>
-         <text>harmadik jó</text>
+         <text>Harmadik választás</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>D) Negyedik választás</text>
+       <text><![CDATA[<p>negyedik jó</p>]]></text>
        <answer>
-         <text>negyedik jó</text>
+         <text>Negyedik választás</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>E) Ötödik választás</text>
+       <text><![CDATA[<p>ötödik jó</p>]]></text>
        <answer>
-         <text>ötödik jó</text>
+         <text>Ötödik választás</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>F) Hatodik választás</text>
+       <text><![CDATA[<p>hatodik jó</p>]]></text>
        <answer>
-         <text>hatodik jó</text>
+         <text>Hatodik választás</text>
        </answer>
      </subquestion>
    </question>
    <question type="matching">
      <name>
-       <text>2</text>
+       <text>2. Melyik periódusokra igazak a felsorolt állítások</text>
      </name>
      <questiontext format="html">
-       <text> Melyik periódusokra igazak a felsorolt állítások</text>
+       <text><![CDATA[<p>Melyik periódusokra igazak a felsorolt állítások</p><p><strong>&nbsp;  1. periódus</strong><br><strong>&nbsp;  2. periódus</strong><br><strong>&nbsp;  5. periódus</strong><br><strong>&nbsp;  7. periódus</strong><br><strong>&nbsp;  mindegyik</strong><br><strong>&nbsp;  egyik sem</strong><br></p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
@@ -84,48 +84,48 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text>1. periódus</text>
+       <text><![CDATA[<p>Csak s-mezőbe tartozó elemek vannak benne.</p>]]></text>
        <answer>
-         <text>Csak s-mezőbe tartozó elemek vannak benne.</text>
+         <text>1. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>2. periódus</text>
+       <text><![CDATA[<p>Nyolc elem található benne.</p>]]></text>
        <answer>
-         <text>Nyolc elem található benne.</text>
+         <text>2. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>5. periódus</text>
+       <text><![CDATA[<p>Legtöbb eleme a d-mezőbe tartozik.</p>]]></text>
        <answer>
-         <text>Legtöbb eleme a d-mezőbe tartozik.</text>
+         <text>5. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>7. periódus</text>
+       <text><![CDATA[<p>Itt található a legnagyobb méretű elem.</p>]]></text>
        <answer>
-         <text>Itt található a legnagyobb méretű elem.</text>
+         <text>7. periódus</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>mindegyik</text>
+       <text><![CDATA[<p></p>]]></text>
        <answer>
-         <text></text>
+         <text>mindegyik</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>egyik sem</text>
+       <text><![CDATA[<p></p>]]></text>
        <answer>
-         <text></text>
+         <text>egyik sem</text>
        </answer>
      </subquestion>
    </question>
    <question type="matching">
      <name>
-       <text>3</text>
+       <text>3. Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
      </name>
      <questiontext format="html">
-       <text> Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
+       <text><![CDATA[<p>Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</p><p><strong>&nbsp;  metanol</strong><br><strong>&nbsp;  etanol</strong><br><strong>&nbsp;  mindegyik</strong><br><strong>&nbsp;  egyik sem</strong><br></p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
@@ -144,27 +144,27 @@
        <text></text>
      </incorrectfeedback>
      <subquestion format="html">
-       <text>metanol</text>
+       <text><![CDATA[<p>Erősen mérgező anyag.</p>]]></text>
        <answer>
-         <text>Erősen mérgező anyag.</text>
+         <text>metanol</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>etanol</text>
+       <text><![CDATA[<p>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</p>]]></text>
        <answer>
-         <text>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</text>
+         <text>etanol</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>mindegyik</text>
+       <text><![CDATA[<p>Enyhe oxidációjával aldehidet kapunk.</p>]]></text>
        <answer>
-         <text>Enyhe oxidációjával aldehidet kapunk.</text>
+         <text>mindegyik</text>
        </answer>
      </subquestion>
      <subquestion format="html">
-       <text>egyik sem</text>
+       <text><![CDATA[<p>Tiszta, vízmentes állapotban "tiszta szesznek" nevezik.</p>]]></text>
        <answer>
-         <text>Tiszta, vízmentes állapotban &#34;tiszta szesznek&#34; nevezik.</text>
+         <text>egyik sem</text>
        </answer>
      </subquestion>
    </question>

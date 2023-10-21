@@ -11,7 +11,7 @@ func WriteFile(fileName string, quiz *Quiz) {
 
 	out := formatOutput(append(header, content...))
 
-	err := os.WriteFile(fileName, out, 0644)
+	err := os.WriteFile(fileName, out, 0o644)
 	if err != nil {
 		panic(err)
 	}
@@ -40,6 +40,18 @@ func formatOutput(original []byte) (formatted []byte) {
 
 		if i+4 < n && string(original[i:i+5]) == "&#xA;" {
 			formatted = append(formatted, byte('\n'))
+			i += 5
+			continue
+		}
+
+		if i+4 < n && string(original[i:i+5]) == "&#34;" {
+			formatted = append(formatted, byte('"'))
+			i += 5
+			continue
+		}
+
+		if i+4 < n && string(original[i:i+5]) == "&amp;" {
+			formatted = append(formatted, byte('&'))
 			i += 5
 			continue
 		}

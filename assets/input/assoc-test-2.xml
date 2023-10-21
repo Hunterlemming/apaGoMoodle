@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document
+	xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+	xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+	xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+	xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+	xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+	xmlns:w10="urn:schemas-microsoft-com:office:word"
+	xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+	xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+	xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+	xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
+	xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+	xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+	xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+	xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se wp14">
+	<w:body>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="Asszocici"/>
+			</w:pPr>
+			<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+			<w:bookmarkEnd w:id="0"/>
+			<w:r>
+				<w:t>1. Asszociáció kérdéstípus</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatA"/>
+			</w:pPr>
+			<w:r>
+				<w:t>A) Első választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatB"/>
+			</w:pPr>
+			<w:r>
+				<w:t>B) Második választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatC"/>
+			</w:pPr>
+			<w:r>
+				<w:t>C) Harmadik választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatD"/>
+			</w:pPr>
+			<w:r>
+				<w:t>D) Negyedik választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatE"/>
+			</w:pPr>
+			<w:r>
+				<w:t>E) Ötödik választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatF"/>
+			</w:pPr>
+			<w:r>
+				<w:t>F) Hatodik választás</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszA"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszB"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó SO</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00AE6B85">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>4</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00AE6B85">
+				<w:rPr>
+					<w:vertAlign w:val="superscript"/>
+				</w:rPr>
+				<w:t>2-</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszC"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszD"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>negyedik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszE"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>ötödik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszF"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>hatodik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AD30F6"/>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="Asszocici"/>
+			</w:pPr>
+			<w:r>
+				<w:t>2. Melyik periódusokra igazak a felsorolt állítások</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatA"/>
+			</w:pPr>
+			<w:r>
+				<w:t>1. periódus</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatB"/>
+			</w:pPr>
+			<w:r>
+				<w:t>2. periódus</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatC"/>
+			</w:pPr>
+			<w:r>
+				<w:t>5. periódus</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatD"/>
+			</w:pPr>
+			<w:r>
+				<w:t>7. periódus</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatE"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>mindegyik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatF"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>egyik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> sem</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszB"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">A legtöbb elemének a legkülső </w:t>
+			</w:r>
+			<w:proofErr w:type="spellStart"/>
+			<w:r>
+				<w:t>alhéja</w:t>
+			</w:r>
+			<w:proofErr w:type="spellEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> a „p”.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszB"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Itt található a legnagyobb elektronegativitású elem.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszA"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">Csak </w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>s-mezőbe tartozó</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> elemek vannak benne.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszC"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Legtöbb eleme a d-mezőbe tartozik.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszD"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">Tartalmaz az </w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>f-mezőbe tartozó</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> elemeket is.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszB"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Nyolc elem található benne.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszD"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Itt található a legnagyobb méretű elem.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AD30F6"/>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="Asszocici"/>
+			</w:pPr>
+			<w:r>
+				<w:t>3. Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatA"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>metanol</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatB"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>etanol</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatC"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>mindegyik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszthatD"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>egyik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> sem</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszA"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Hétköznapi hagyományos neve faszesz.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszA"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Erősen mérgező anyag.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszD"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Tiszta, vízmentes állapotban "tiszta szesznek" nevezik.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszC"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Vízzel korlátlanul elegyedik.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszB"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">70% feletti </w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>koncentrációban</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> a gyógyászatban fertőtlenítőként használják.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AE6B85">
+			<w:pPr>
+				<w:pStyle w:val="VlaszC"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Enyhe oxidációjával aldehidet kapunk.</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00AD30F6" w:rsidRDefault="00AD30F6"/>
+		<w:sectPr w:rsidR="00AD30F6">
+			<w:pgSz w:w="11906" w:h="16838"/>
+			<w:pgMar w:top="1417" w:right="1417" w:bottom="1417" w:left="1417" w:header="0" w:footer="0" w:gutter="0"/>
+			<w:cols w:space="708"/>
+			<w:formProt w:val="0"/>
+			<w:docGrid w:linePitch="360"/>
+		</w:sectPr>
+	</w:body>
+</w:document>

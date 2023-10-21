@@ -13,10 +13,16 @@ type RFonts struct {
 }
 
 type RPr struct {
-	XMLName xml.Name `xml:"rPr"`
-	RFonts  RFonts   `xml:"rFonts"`
-	B       bool     `xml:"b,omitempty"`
-	BCs     bool     `xml:"bCs,omitempty"`
+	XMLName   xml.Name  `xml:"rPr"`
+	RFonts    RFonts    `xml:"rFonts"`
+	B         bool      `xml:"b,omitempty"`
+	BCs       bool      `xml:"bCs,omitempty"`
+	VertAlign VertAlign `xml:"vertAlign"`
+}
+
+type VertAlign struct {
+	XMLName xml.Name `xml:"vertAlign"`
+	Val     string   `xml:"val,attr"`
 }
 
 type T struct {

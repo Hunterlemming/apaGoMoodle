@@ -7,7 +7,7 @@ import (
 )
 
 // TODO: Replace this with terminal input
-const inputName = "./assets/input/association-test.xml"
+const inputName = "./assets/input/assoc-test-2.xml"
 
 // TODO: Replace this with terminal input
 const outputName = "./assets/output/out.xml"
