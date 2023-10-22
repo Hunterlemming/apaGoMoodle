@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
  <quiz>
-   <question type="matching">
+   <question type="multichoice">
      <name>
-       <text>1. Asszociáció kérdéstípus</text>
+       <text>1. Egyszeres választás: Melyik elem molekulái között alakul ki 25° C-on a legerősebb kölcsönhatás?</text>
      </name>
      <questiontext format="html">
-       <text><![CDATA[<p>Asszociáció kérdéstípus</p><p><strong>&nbsp;  Első választás</strong><br><strong>&nbsp;  Második választás</strong><br><strong>&nbsp;  Harmadik választás</strong><br><strong>&nbsp;  Negyedik választás</strong><br><strong>&nbsp;  Ötödik választás</strong><br><strong>&nbsp;  Hatodik választás</strong><br></p>]]></text>
+       <text><![CDATA[<p>Egyszeres választás: Melyik elem molekulái között alakul ki 25° C-on a legerősebb kölcsönhatás?</p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade>6.0000000</defaultgrade>
+     <defaultgrade>1.0000000</defaultgrade>
      <penalty>0.3333333</penalty>
      <hidden>0</hidden>
+     <single>true</single>
      <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
      <correctfeedback format="html">
        <text></text>
      </correctfeedback>
@@ -23,57 +25,53 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <subquestion format="html">
-       <text><![CDATA[<p>első jó</p>]]></text>
-       <answer>
-         <text>Első választás</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>második jó SO<sub>4</sub><sup>2-</sup></p>]]></text>
-       <answer>
-         <text>Második választás</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>harmadik jó</p>]]></text>
-       <answer>
-         <text>Harmadik választás</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>negyedik jó</p>]]></text>
-       <answer>
-         <text>Negyedik választás</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>ötödik jó</p>]]></text>
-       <answer>
-         <text>Ötödik választás</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>hatodik jó</p>]]></text>
-       <answer>
-         <text>Hatodik választás</text>
-       </answer>
-     </subquestion>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>Cl<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>H<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>I<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>N<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>O<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
    </question>
-   <question type="matching">
+   <question type="multichoice">
      <name>
-       <text>2. Melyik periódusokra igazak a felsorolt állítások</text>
+       <text>2. Egyszeres választás: Melyik elem molekulái között alakul ki 25° C-on a leggyengébb kölcsönhatás?</text>
      </name>
      <questiontext format="html">
-       <text><![CDATA[<p>Melyik periódusokra igazak a felsorolt állítások</p><p><strong>&nbsp;  1. periódus</strong><br><strong>&nbsp;  2. periódus</strong><br><strong>&nbsp;  5. periódus</strong><br><strong>&nbsp;  7. periódus</strong><br><strong>&nbsp;  mindegyik</strong><br><strong>&nbsp;  egyik sem</strong><br></p>]]></text>
+       <text><![CDATA[<p>Egyszeres választás: Melyik elem molekulái között alakul ki 25° C-on a leggyengébb kölcsönhatás?</p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade>7.0000000</defaultgrade>
+     <defaultgrade>1.0000000</defaultgrade>
      <penalty>0.3333333</penalty>
      <hidden>0</hidden>
+     <single>true</single>
      <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
      <correctfeedback format="html">
        <text></text>
      </correctfeedback>
@@ -83,75 +81,53 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <subquestion format="html">
-       <text><![CDATA[<p>A legtöbb elemének a legkülső alhéja a „p”.</p>]]></text>
-       <answer>
-         <text>2. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Itt található a legnagyobb elektronegativitású elem.</p>]]></text>
-       <answer>
-         <text>2. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Csak s-mezőbe tartozó elemek vannak benne.</p>]]></text>
-       <answer>
-         <text>1. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Legtöbb eleme a d-mezőbe tartozik.</p>]]></text>
-       <answer>
-         <text>5. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Tartalmaz az f-mezőbe tartozó elemeket is.</p>]]></text>
-       <answer>
-         <text>7. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Nyolc elem található benne.</p>]]></text>
-       <answer>
-         <text>2. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Itt található a legnagyobb méretű elem.</p>]]></text>
-       <answer>
-         <text>7. periódus</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text></text>
-       <answer>
-         <text>mindegyik</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text></text>
-       <answer>
-         <text>egyik sem</text>
-       </answer>
-     </subquestion>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>Cl<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>H<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>I<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>N<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>O<sub>2</sub></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
    </question>
-   <question type="matching">
+   <question type="multichoice">
      <name>
-       <text>3. Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</text>
+       <text>3. Többszörös választás: nem szigorú, 1 jó válasszal Nem szigorú kérdésnek jó lesz?*#1.nsz</text>
      </name>
      <questiontext format="html">
-       <text><![CDATA[<p>Párosítsa a megfelelő vegyületet az alábbi állításokhoz!</p><p><strong>&nbsp;  metanol</strong><br><strong>&nbsp;  etanol</strong><br><strong>&nbsp;  mindegyik</strong><br><strong>&nbsp;  egyik sem</strong><br></p>]]></text>
+       <text><![CDATA[<p>Többszörös választás: nem szigorú, 1 jó válasszal Nem szigorú kérdésnek jó lesz?</p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
      </generalfeedback>
-     <defaultgrade>6.0000000</defaultgrade>
+     <defaultgrade>1.0000000</defaultgrade>
      <penalty>0.3333333</penalty>
      <hidden>0</hidden>
+     <single>false</single>
      <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
      <correctfeedback format="html">
        <text></text>
      </correctfeedback>
@@ -161,41 +137,379 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <subquestion format="html">
-       <text><![CDATA[<p>Hétköznapi hagyományos neve faszesz.</p>]]></text>
-       <answer>
-         <text>metanol</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Erősen mérgező anyag.</p>]]></text>
-       <answer>
-         <text>metanol</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Tiszta, vízmentes állapotban "tiszta szesznek" nevezik.</p>]]></text>
-       <answer>
-         <text>egyik sem</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Vízzel korlátlanul elegyedik.</p>]]></text>
-       <answer>
-         <text>mindegyik</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>70% feletti koncentrációban a gyógyászatban fertőtlenítőként használják.</p>]]></text>
-       <answer>
-         <text>etanol</text>
-       </answer>
-     </subquestion>
-     <subquestion format="html">
-       <text><![CDATA[<p>Enyhe oxidációjával aldehidet kapunk.</p>]]></text>
-       <answer>
-         <text>mindegyik</text>
-       </answer>
-     </subquestion>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>az egyetlen jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>4. Többszörös választás: szigorú, 1 jó válasszal Ez szigorú kérdésnek jó lesz?*#1.sz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: szigorú, 1 jó válasszal Ez szigorú kérdésnek jó lesz?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>az egyetlen jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>5.Többszörös választás:szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?*#2.sz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>5.Többszörös választás:szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>JÓ az összes természetes izotóp tömegszáma</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>az adott elem rendszáma</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>JÓ az egyes izotópok előfordulási gyakorisága</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>a radioaktív izotópok gyakorisága </p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>6. Többszörös választás: nem szigorú, 2 jó Ez a kérdés?*#2.nsz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: nem szigorú, 2 jó Ez a kérdés?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>ez az egyik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>ez az egyik rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>ez a másik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>a másik rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>7. Többszörös választás: szigorú, 3 jó Kérdésnek jó lesz?*#3.sz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: szigorú, 3 jó Kérdésnek jó lesz?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>az egyetlen rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>8. Többszörös választás: nem szigorú, 3 jó Nem szigorú kérdésnek jó lesz?*#3.nsz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: nem szigorú, 3 jó Nem szigorú kérdésnek jó lesz?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>az egyetlen rossz válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>9. Többszörös választás: nem szigorú, 4 jó Nem szigorú kérdésnek jó lesz?*#4.nsz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: nem szigorú, 4 jó Nem szigorú kérdésnek jó lesz?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>a negyedik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text>10. Többszörös választás: szigorú, 4 jó Ebben a szigorú kérdésben hogy nullázódik, aki nem jelöli mind a négyet?*#4.sz</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Többszörös választás: szigorú, 4 jó Ebben a szigorú kérdésben hogy nullázódik, aki nem jelöli mind a négyet?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>első jó válasz: semmiképpen nem tud nullázódni!</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>második jó válasz: ez olyan lesz, mint a nem szigorú</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="" format="html">
+       <text><![CDATA[<p>a negyedik jó válasz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
    </question>
  </quiz>

@@ -39,9 +39,19 @@ type Hidden struct {
 	Value   byte     `xml:",chardata"`
 }
 
+type Single struct {
+	XMLName xml.Name `xml:"single"`
+	Value   bool     `xml:",chardata"`
+}
+
 type ShuffleAnswers struct {
 	XMLName xml.Name `xml:"shuffleanswers"`
 	Value   bool     `xml:",chardata"`
+}
+
+type AnswerNumbering struct {
+	XMLName xml.Name `xml:"answernumbering"`
+	Value   string   `xml:",chardata"`
 }
 
 type CorrectFeedback struct {
@@ -62,9 +72,18 @@ type IncorrectFeedback struct {
 	Text    Text     `xml:"text"`
 }
 
-type Answer struct {
-	XMLName xml.Name `xml:"answer"`
+type Feedback struct {
+	XMLName xml.Name `xml:"feedback"`
+	Format  string   `xml:"format,attr"`
 	Text    Text     `xml:"text"`
+}
+
+type Answer struct {
+	XMLName  xml.Name `xml:"answer"`
+	Fraction string   `xml:"fraction,attr"`
+	Format   string   `xml:"format,attr"`
+	Text     Text     `xml:"text"`
+	Feedback Feedback `xml:"feedback"`
 }
 
 type SubQuestion struct {
@@ -83,11 +102,14 @@ type Question struct {
 	DefaultGrade             DefaultGrade             `xml:"defaultgrade"`
 	Penalty                  Penalty                  `xml:"penalty"`
 	Hidden                   Hidden                   `xml:"hidden"`
+	Single                   Single                   `xml:"single"`
 	ShuffleAnswers           ShuffleAnswers           `xml:"shuffleanswers"`
+	AnswerNumbering          AnswerNumbering          `xml:"answernumbering"`
 	CorrectFeedback          CorrectFeedback          `xml:"correctfeedback"`
 	PartiallyCorrectFeedback PartiallyCorrectFeedback `xml:"partiallycorrectfeedback"`
 	IncorrectFeedback        IncorrectFeedback        `xml:"incorrectfeedback"`
 	SubQuestions             []SubQuestion            `xml:"subquestion"`
+	Answers                  []Answer                 `xml:"answer"`
 }
 
 type Quiz struct {

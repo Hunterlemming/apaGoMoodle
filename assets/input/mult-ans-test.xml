@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document
+	xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+	xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	xmlns:o="urn:schemas-microsoft-com:office:office"
+	xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+	xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
+	xmlns:v="urn:schemas-microsoft-com:vml"
+	xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
+	xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing"
+	xmlns:w10="urn:schemas-microsoft-com:office:word"
+	xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+	xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml"
+	xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml"
+	xmlns:w16se="http://schemas.microsoft.com/office/word/2015/wordml/symex"
+	xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup"
+	xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
+	xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
+	xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 w15 w16se wp14">
+	<w:body>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">1. </w:t>
+			</w:r>
+			<w:r w:rsidR="003B5817">
+				<w:t xml:space="preserve">Egyszeres választás: </w:t>
+			</w:r>
+			<w:r>
+				<w:t>Melyik elem molekulái között alakul ki 25° C-</w:t>
+			</w:r>
+			<w:proofErr w:type="spellStart"/>
+			<w:r>
+				<w:t>on</w:t>
+			</w:r>
+			<w:proofErr w:type="spellEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> a legerősebb kölcsönhatás?</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Cl</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>H</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:r>
+				<w:t>I</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>N</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>O</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431"/>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>2. Egyszeres választás: Melyik elem molekulái között alakul ki 25° C-</w:t>
+			</w:r>
+			<w:proofErr w:type="spellStart"/>
+			<w:r>
+				<w:t>on</w:t>
+			</w:r>
+			<w:proofErr w:type="spellEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> a leggyengébb kölcsönhatás?</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>Cl</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:r>
+				<w:t>H</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>I</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>N</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:r>
+				<w:t>O</w:t>
+			</w:r>
+			<w:r w:rsidRPr="00C8278B">
+				<w:rPr>
+					<w:vertAlign w:val="subscript"/>
+				</w:rPr>
+				<w:t>2</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B"/>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>3. Többszörös választás: nem szigorú, 1 jó válasszal Nem szigorú kérdésnek jó lesz?</w:t>
+			</w:r>
+			<w:r w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r>
+				<w:t>*#1</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>.nsz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>az</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> egyetlen jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE"/>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>4. Többszörös választás: szigorú, 1 jó válasszal Ez szigorú kérdésnek jó lesz?</w:t>
+			</w:r>
+			<w:r w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r>
+				<w:t>*#1</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>.sz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>az</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> egyetlen jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE"/>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="002300DE" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>5</w:t>
+			</w:r>
+			<w:r w:rsidR="003B5817">
+				<w:t>.</w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="003B5817">
+				<w:t>Többszörös választás:</w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="003B5817">
+				<w:t xml:space="preserve">szigorú, 2 jó </w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431">
+				<w:t xml:space="preserve">Mely adatok szükségesek a </w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="00B14431">
+				<w:t>relatív</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r w:rsidR="00B14431">
+				<w:t xml:space="preserve"> atomtömeg kiszámításához?</w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431">
+				<w:t>*#2</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="00B14431">
+				<w:t>.sz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="006144C4" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">JÓ </w:t>
+			</w:r>
+			<w:r w:rsidR="00B14431">
+				<w:t>az összes természetes izotóp tömegszáma</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>az</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> adott elem rendszáma</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="006144C4" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:r>
+				<w:t xml:space="preserve">JÓ </w:t>
+			</w:r>
+			<w:bookmarkStart w:id="0" w:name="_GoBack"/>
+			<w:bookmarkEnd w:id="0"/>
+			<w:r w:rsidR="00B14431">
+				<w:t>az egyes izotópok előfordulási gyakorisága</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>a</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> radioaktív izotópok gyakorisága </w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="00B14431"/>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="00740480" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>6</w:t>
+			</w:r>
+			<w:r w:rsidR="0021058B">
+				<w:t>. Többszörös választás: nem szigorú, 2 jó Ez a kérdés?</w:t>
+			</w:r>
+			<w:r w:rsidR="0021058B" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="0021058B">
+				<w:t>*#2</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="0021058B">
+				<w:t>.nsz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>ez</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> az egyik jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>ez</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> az egyik rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>ez</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> a másik jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="0021058B">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>a</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> másik rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="0021058B" w:rsidRDefault="0021058B" w:rsidP="00B14431"/>
+		<w:p w:rsidR="00A61CD7" w:rsidRDefault="00740480" w:rsidP="00A61CD7">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>7</w:t>
+			</w:r>
+			<w:r w:rsidR="00A61CD7">
+				<w:t>. Többszörös választás: szigorú, 3 jó Kérdésnek jó lesz?</w:t>
+			</w:r>
+			<w:r w:rsidR="00A61CD7" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="00A61CD7">
+				<w:t>*#3</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="00A61CD7">
+				<w:t>.sz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="00A61CD7" w:rsidRDefault="002300DE" w:rsidP="00A61CD7">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00A61CD7" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00A61CD7" w:rsidRDefault="00A61CD7" w:rsidP="00A61CD7">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>a</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>z</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r w:rsidR="002300DE">
+				<w:t xml:space="preserve"> egyetlen rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00A61CD7" w:rsidRDefault="00A61CD7" w:rsidP="00A61CD7"/>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="00740480" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>8</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>. Többszörös választás: nem szigorú, 3 jó Nem szigorú kérdésnek jó lesz?</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>*#3</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="002300DE">
+				<w:t>.nsz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:lastRenderedPageBreak/>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsROSSZ"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>az</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> egyetlen rossz válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE"/>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="00740480" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>9</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>. Többszörös választás: nem szigorú, 4 jó Nem szigorú kérdésnek jó lesz?</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>*#4</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="002300DE">
+				<w:t>.nsz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>a</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> negyedik jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE"/>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="00740480" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="Feleletvlasztskrds"/>
+			</w:pPr>
+			<w:r>
+				<w:t>10</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t xml:space="preserve">. Többszörös választás: szigorú, 4 jó Ebben a szigorú kérdésben hogy </w:t>
+			</w:r>
+			<w:proofErr w:type="spellStart"/>
+			<w:r w:rsidR="002300DE">
+				<w:t>nullázódik</w:t>
+			</w:r>
+			<w:proofErr w:type="spellEnd"/>
+			<w:r w:rsidR="002300DE">
+				<w:t>, aki nem jelöli mind a négyet?</w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE" w:rsidRPr="003635B9">
+				<w:t xml:space="preserve"></w:t>
+			</w:r>
+			<w:r w:rsidR="002300DE">
+				<w:t>*#4</w:t>
+			</w:r>
+			<w:proofErr w:type="gramStart"/>
+			<w:r w:rsidR="002300DE">
+				<w:t>.sz</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>első</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz: semmiképpen nem tud </w:t>
+			</w:r>
+			<w:proofErr w:type="spellStart"/>
+			<w:r>
+				<w:t>nullázódni</w:t>
+			</w:r>
+			<w:proofErr w:type="spellEnd"/>
+			<w:r>
+				<w:t>!</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>második</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz: ez olyan lesz, mint a nem szigorú</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>harmadik</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="002300DE" w:rsidRDefault="002300DE" w:rsidP="002300DE">
+			<w:pPr>
+				<w:pStyle w:val="FeleletvlasztsHELYES"/>
+			</w:pPr>
+			<w:proofErr w:type="gramStart"/>
+			<w:r>
+				<w:t>a</w:t>
+			</w:r>
+			<w:proofErr w:type="gramEnd"/>
+			<w:r>
+				<w:t xml:space="preserve"> negyedik jó válasz</w:t>
+			</w:r>
+		</w:p>
+		<w:p w:rsidR="00B14431" w:rsidRDefault="00B14431" w:rsidP="009F7C17"/>
+		<w:sectPr w:rsidR="00B14431" w:rsidSect="00B14431">
+			<w:pgSz w:w="11906" w:h="16838"/>
+			<w:pgMar w:top="993" w:right="1417" w:bottom="567" w:left="1417" w:header="708" w:footer="708" w:gutter="0"/>
+			<w:cols w:space="708"/>
+			<w:docGrid w:linePitch="360"/>
+		</w:sectPr>
+	</w:body>
+</w:document>
