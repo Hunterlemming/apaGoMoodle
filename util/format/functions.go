@@ -11,7 +11,7 @@ func ToMoodleFloat(num float32) string {
 }
 
 func ToMoodleParagraph(s string) string {
-	return fmt.Sprintf("<![CDATA[<p>%s</p>]]>", s)
+	return fmt.Sprintf("<![CDATA[<p>%s</p>]]>", strings.TrimSpace(s))
 }
 
 func ToMoodleQuestionText(mainText string, subQuestionNames []string) string {

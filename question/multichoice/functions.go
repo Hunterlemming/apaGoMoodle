@@ -33,20 +33,25 @@ func setDefaults(result *output.Question) {
 }
 
 func parseHeader(q *input.RawQuestion, result *output.Question) QuestionType {
-	result.Name = output.Name{
-		Text: output.Text{
-			Content: q.HeaderText,
-		},
-	}
-
 	headerParts := questionDocMatcher.FindStringSubmatch(q.HeaderText)
 	questionText := q.HeaderText
+	option := ""
 
 	if len(headerParts) == 3 {
 		questionText = headerParts[2]
+		option = headerParts[1]
+		if option[len(option)-1] != ' ' {
+			option += " "
+		}
 	}
 
 	qType := extractQuestionType(&questionText)
+
+	result.Name = output.Name{
+		Text: output.Text{
+			Content: strings.TrimSpace(option + questionText),
+		},
+	}
 
 	result.QuestionText = output.QuestionText{
 		Format: "html",
@@ -54,6 +59,7 @@ func parseHeader(q *input.RawQuestion, result *output.Question) QuestionType {
 			Content: format.ToMoodleParagraph(questionText),
 		},
 	}
+
 	result.Single.Value = qType.Single
 
 	return qType
@@ -69,7 +75,7 @@ func extractQuestionType(questionText *string) (qType QuestionType) {
 		return
 	}
 
-	(*questionText) = strings.TrimSpace(typeSplit[0])
+	(*questionText) = typeSplit[0]
 	typeSplit = strings.Split(typeSplit[1], ".")
 	goodAnswers, _ := strconv.Atoi(typeSplit[0])
 
