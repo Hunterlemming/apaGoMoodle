@@ -25,31 +25,31 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>Cl<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>H<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="100" format="html">
        <text><![CDATA[<p>I<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>N<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>O<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
@@ -81,31 +81,31 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>Cl<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="100" format="html">
        <text><![CDATA[<p>H<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>I<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>N<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="0" format="html">
        <text><![CDATA[<p>O<sub>2</sub></p>]]></text>
        <feedback format="html">
          <text></text>
@@ -137,25 +137,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="-100.0000" format="html">
        <text><![CDATA[<p>első rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100.0000" format="html">
        <text><![CDATA[<p>második rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100.0000" format="html">
        <text><![CDATA[<p>harmadik rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="100.00000" format="html">
        <text><![CDATA[<p>az egyetlen jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -187,25 +187,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>első rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>második rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>harmadik rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="100.00000" format="html">
        <text><![CDATA[<p>az egyetlen jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -237,25 +237,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="50.000000" format="html">
        <text><![CDATA[<p>JÓ az összes természetes izotóp tömegszáma</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>az adott elem rendszáma</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="50.000000" format="html">
        <text><![CDATA[<p>JÓ az egyes izotópok előfordulási gyakorisága</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>a radioaktív izotópok gyakorisága</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -287,25 +287,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="50.000000" format="html">
        <text><![CDATA[<p>ez az egyik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-50.00000" format="html">
        <text><![CDATA[<p>ez az egyik rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="50.000000" format="html">
        <text><![CDATA[<p>ez a másik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-50.00000" format="html">
        <text><![CDATA[<p>a másik rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -337,25 +337,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>első jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>második jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-100" format="html">
        <text><![CDATA[<p>az egyetlen rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -387,25 +387,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>első jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>második jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="33.333335" format="html">
        <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="-33.33333" format="html">
        <text><![CDATA[<p>az egyetlen rossz válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -437,25 +437,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>első jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>második jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>a negyedik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
@@ -487,25 +487,25 @@
      <incorrectfeedback format="html">
        <text></text>
      </incorrectfeedback>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>első jó válasz: semmiképpen nem tud nullázódni!</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>második jó válasz: ez olyan lesz, mint a nem szigorú</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>harmadik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>
        </feedback>
      </answer>
-     <answer fraction="" format="html">
+     <answer fraction="25.000000" format="html">
        <text><![CDATA[<p>a negyedik jó válasz</p>]]></text>
        <feedback format="html">
          <text></text>

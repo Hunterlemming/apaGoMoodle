@@ -7,6 +7,7 @@ import (
 	"GoMoodle/input"
 	"GoMoodle/output"
 	"GoMoodle/util/format"
+	"GoMoodle/util/linetype"
 )
 
 func Parse(q *input.RawQuestion) *output.Question {
@@ -95,6 +96,46 @@ func parseAnswers(lines *[]input.Line, result *output.Question, qType QuestionTy
 		a.Text.Content = format.ToMoodleParagraph(l.Content)
 		a.Format = "html"
 		a.Feedback.Format = "html"
+		parseAnswerType(&a, l.Style, qType)
+
 		result.Answers = append(result.Answers, a)
 	}
+}
+
+const numberOfChoices = 4
+
+func parseAnswerType(a *output.Answer, lineStyle string, qType QuestionType) {
+	if qType.Single {
+		if lineStyle == linetype.ChoiceGood {
+			a.Fraction = "100"
+			return
+		}
+
+		a.Fraction = "0"
+		return
+	}
+
+	// Multi, Good
+	// goodFraction := float32(qType.GoodAnswers) / float32(numberOfChoices-qType.GoodAnswers) * 100
+	goodFraction := float32(1) / float32(qType.GoodAnswers) * 100
+	if lineStyle == linetype.ChoiceGood {
+		a.Fraction = format.ToMoodleFloat(goodFraction)
+		return
+	}
+
+	// Multi, Bad, Strict
+	if qType.Strict {
+		a.Fraction = "-100"
+		return
+	}
+
+	// Multi, Bad, Non-Strict
+	badFraction := float32(0.5)
+	if qType.GoodAnswers == 1 {
+		badFraction = float32(1)
+	}
+	if qType.GoodAnswers == 3 {
+		badFraction = float32(1) / float32(3)
+	}
+	a.Fraction = format.ToMoodleFloat(-badFraction * 100)
 }

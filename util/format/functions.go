@@ -7,7 +7,11 @@ import (
 )
 
 func ToMoodleFloat(num float32) string {
-	return fmt.Sprintf("%.7f", num)
+	formatted := fmt.Sprintf("%.7f", num)
+	if len(formatted) >= 9 {
+		return formatted[:9]
+	}
+	return formatted
 }
 
 func ToMoodleParagraph(s string) string {
