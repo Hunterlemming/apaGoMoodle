@@ -50,7 +50,7 @@ func parseHeader(q *input.RawQuestion, result *output.Question) QuestionType {
 
 	result.Name = output.Name{
 		Text: output.Text{
-			Content: strings.TrimSpace(option + questionText),
+			Content: format.ToMoodleParagraph(strings.TrimSpace(option + questionText)),
 		},
 	}
 

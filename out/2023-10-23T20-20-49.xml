@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <quiz>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_01. Ki vezette be a kémia tudományába a pontos mérést és az analitikai módszereket?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Ki vezette be a kémia tudományába a pontos mérést és az analitikai módszereket?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Scheele</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Bergman</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Lavoisier</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Wöhler</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Kekulé</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_02. Mi a vis vitalis elmélet lényege?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Mi a vis vitalis elmélet lényege?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>szerves anyagból szervetlen nem képződhet</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>szervetlen anyagból szerves nem képződhet</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>szerves vegyületeket csak laboratóriumban lehet előállítani</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>szerves vegyületek csak életerő közreműködésével jöhetnek létre</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>szervetlen sókból szerves vegyületek csak mesterségesen hozhatók létre</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_03. Milyen formában mutatjuk ki a laboratóriumban a szerves vegyületek nitrogéntartalmát?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Milyen formában mutatjuk ki a laboratóriumban a szerves vegyületek nitrogéntartalmát?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>elemi nitrogén formájában</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>ammónia formájában</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>nitrogén-monoxid formájában</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>nitrogén-dioxid formájában</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>salétromsav formájában</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_04. Melyik vegyület relatív széntartalma a legnagyobb a felsoroltak közül?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik vegyület relatív széntartalma a legnagyobb a felsoroltak közül?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>a metán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>az etán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>a propán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>a bután</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>mivel mindegyik telített, nyílt láncú szénhidrogén, azonos a relatív széntartalmuk</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_05. Hány tercier szénatomot tartalmaz a gonán (szteránváz)?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Hány tercier szénatomot tartalmaz a gonán (szteránváz)?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>kettőt</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>négyet</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>hatot</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>nyolcat</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>tízet</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_06. Melyik butil-csoport összegképlete tér el a többiétől?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik butil-csoport összegképlete tér el a többiétől?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>n-butil-csoport</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>izobutil-csoport</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>szekunder-butil-csoport</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>tercier-butil-csoport</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>ciklobutil-csoport</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_07. Melyik az alábbi vegyület szabályos neve?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik az alábbi vegyület szabályos neve?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>2,4,4-trimetil-5-etil-hexán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>2-etil-3,3,5-trimetil-hexán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>2,4,4,5-tetrametil-heptán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>3,4,4,6-tetrametil-heptán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>egyik elnevezés sem szabályos</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_08. Melyik a hibás állítás a metánra vonatkozóan?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik a hibás állítás a metánra vonatkozóan?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>napjaink egyik legfontosabb energiaforrása a metán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>háztartási gáztűzhelyekben és ipari tüzelő-berendezésekben használják</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>színtelen, jellegzetes szagú gáz</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>apoláris szerkezeténél fogva vízben nem oldódik</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>vízzel magas hőmérsékleten kémiai reakcióba lép</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_09. Elvileg mekkora térfogatú 25 °C-os és 0,1 MPa nyomású klórgáz szükséges 1 mol diklór-metán keletkezéséhez metánból kiindulva?</p><p>(Feltételezzük, hogy csak ez az egyféle termék keletkezik!)</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Elvileg mekkora térfogatú 25 °C-os és 0,1 MPa nyomású klórgáz szükséges 1 mol diklór-metán keletkezéséhez metánból kiindulva?</p><p>(Feltételezzük, hogy csak ez az egyféle termék keletkezik!)</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>12,25 dm<sup>3</sup></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>22,41 dm<sup>3</sup></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>24,5 dm<sup>3</sup></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>44,82 dm<sup>3</sup></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>49 dm<sup>3</sup></p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_10. Hány mól oxigén szükséges 1 mol 98-as oktánszámú benzin tökéletes elégetéséhez?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Hány mól oxigén szükséges 1 mol 98-as oktánszámú benzin tökéletes elégetéséhez?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>10,78 mol</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>11,03 mol</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>12,50 mol</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>14,33 mol</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>a fenti adatokból nem határozható meg</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_11 TV. Miért a szén a szerves vegyületek alapeleme?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Miért a szén a szerves vegyületek alapeleme?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>mert a szénatom négy másik atommal képes erős kovalens kötéseket kialakítani</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>mert elektromosan semleges molekulákat képezhet</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>mert hosszú láncokat és gyűrűket is kialakíthat, miközben a molekula stabilitása nem csökken</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>mert a szénatom többszörös kötések kialakítására is képes</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_12 TV. Milyen módszerrel mutatható ki egy vegyület széntartalma?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Milyen módszerrel mutatható ki egy vegyület széntartalma?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>égését kormozó láng kíséri</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>a vegyület égetésekor a láng fölé tartott univerzális indikátorpapír elszíneződik</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>az égés során keletkező szén-dioxidot meszes vízbe vezetve a meszes víz megzavarosodik</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>égése során a kékes láng szén jelenlétére utal</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_13 TV. Melyik állítás igaz a n-alkánok homológ sorára?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik állítás igaz a n-alkánok homológ sorára?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>a szénatomszám növekedésével lineárisan nő a vegyületek moláris tömege</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>a szénatomszám növekedésével lineárisan nő a vegyületek olvadáspontja és forráspontja</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>a szénatomszám növekedésével nő a molekulák közötti másodrendű kötések erőssége</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>a szénatomszám növekedésével nő a vegyületek reakciókészsége</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_14 TV. Minden nyílt szénláncú alkán jellemzője, hogy …</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Minden nyílt szénláncú alkán jellemzője, hogy …</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>összegképletük CnH2n+2</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>csak a-kötéseket tartalmaznak</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>minden kötésszögük 109,5°</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>minden szénatomjuk négyligandumos</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_15 TV. Melyik az alkánok jellemző reakciója?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik az alkánok jellemző reakciója?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>a szubsztitúció</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>a hőbontás</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>az oxidáció</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>a redukció</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_16 TV. Melyik szabályos elnevezés?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik szabályos elnevezés?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>2,3,3-trimetil-bután</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>2,2,4-trimeril-pentán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>3-metil-bután</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="50.000000" format="html">
+       <text><![CDATA[<p>1,2-dimetil-ciklopropán</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_17 TV. Milyen tényezőktől függ egy hőbontási folyamat végtermék-összetétele?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Milyen tényezőktől függ egy hőbontási folyamat végtermék-összetétele?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>a használt katalizátor minőségétől</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>az alkalmazott hőmérséklettől</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="33.333335" format="html">
+       <text><![CDATA[<p>a csőkemencében az anyagok tartózkodási idejétől</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="-100" format="html">
+       <text><![CDATA[<p>a befúvatott levegő oxigéntartalmától</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_18 TV. Melyik anyag lehet a metán hőbontásának végterméke?</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Melyik anyag lehet a metán hőbontásának végterméke?</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>az etilén</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>a korom</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>az acetilén</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="25.000000" format="html">
+       <text><![CDATA[<p>a hidrogén</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_19 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) a n-oktán kompressziótűrése</p><p>B) az izooktán kompressziótűrése</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) a n-oktán kompressziótűrése</p><p>B) az izooktán kompressziótűrése</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_20 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) a C-C kötési energia az etánban</p><p>B) a C-H kötési energia az etánban</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) a C-C kötési energia az etánban</p><p>B) a C-H kötési energia az etánban</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_21 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) az ismert szervetlen vegyületek száma</p><p>B) az ismert szerves vegyületek száma</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) az ismert szervetlen vegyületek száma</p><p>B) az ismert szerves vegyületek száma</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_22 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) a metán tömeg%-os széntartalma</p><p>B) a metán anyagmennyiség%-os széntartalma</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) a metán tömeg%-os széntartalma</p><p>B) a metán anyagmennyiség%-os széntartalma</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_23 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) a C<sub>3</sub>H<sub>8</sub> összegképletű vegyület lehetséges konstitúciós izomerjeinek száma</p><p>B) a C<sub>3</sub>H<sub>6</sub> összegképletű vegyület lehetséges konstitúciós izomerjeinek száma</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) a C<sub>3</sub>H<sub>8</sub> összegképletű vegyület lehetséges konstitúciós izomerjeinek száma</p><p>B) a C<sub>3</sub>H<sub>6</sub> összegképletű vegyület lehetséges konstitúciós izomerjeinek száma</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_24 MeÖ. Állapítsa meg a két mennyiség viszonyát!</p><p>A) a n-pentán olvadáspontja</p><p>B) a 2,2-dimetil-propán olvadáspontja</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg a két mennyiség viszonyát!</p><p>A) a n-pentán olvadáspontja</p><p>B) a 2,2-dimetil-propán olvadáspontja</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A > B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>B > A</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>A = B</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="matching">
+     <name>
+       <text>57_25_34. Párosítsa a vegyületcsoportokat a nekik megfelelő állításhoz!</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Párosítsa a vegyületcsoportokat a nekik megfelelő állításhoz!</p><p><strong>&nbsp;  nyílt szénláncú alkánok</strong><br><strong>&nbsp;  gyűrűs alkánok</strong><br><strong>&nbsp;  mindkettő</strong><br><strong>&nbsp;  egyik sem </strong><br></p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>10.000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering></answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <subquestion format="html">
+       <text><![CDATA[<p>összegképletük C<sub>n</sub>H<sub>2n+2</sub></p>]]></text>
+       <answer fraction="" format="">
+         <text>nyílt szénláncú alkánok</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>ilyen vegyületet jelölhet a C<sub>4</sub>H<sub>8</sub> összegképlet</p>]]></text>
+       <answer fraction="" format="">
+         <text>gyűrűs alkánok</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>minden szénatomja lehet másodrendű</p>]]></text>
+       <answer fraction="" format="">
+         <text>gyűrűs alkánok</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>lehet benne kvaterner szénatom</p>]]></text>
+       <answer fraction="" format="">
+         <text>mindkettő</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>minden szénatomja négy vegyértékű és négyligandumos</p>]]></text>
+       <answer fraction="" format="">
+         <text>mindkettő</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>van benne háromligandumos szénatom is</p>]]></text>
+       <answer fraction="" format="">
+         <text>egyik sem </text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>azonos szénatomszám esetén ennek a vegyületnek alacsonyabb az olvadás- és forráspontja</p>]]></text>
+       <answer fraction="" format="">
+         <text>nyílt szénláncú alkánok</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>merevebb szerkezet jellemzi</p>]]></text>
+       <answer fraction="" format="">
+         <text>gyűrűs alkánok</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>vízben oldódó vegyületek</p>]]></text>
+       <answer fraction="" format="">
+         <text>egyik sem </text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>hidrogén-kloriddal szubsztitúciós reakcióba lépnek</p>]]></text>
+       <answer fraction="" format="">
+         <text>egyik sem </text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+   </question>
+   <question type="matching">
+     <name>
+       <text>57_35_42. Párosítsa a frakciókat a nekik megfelelő állításhoz!</text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Párosítsa a frakciókat a nekik megfelelő állításhoz!</p><p><strong>&nbsp;  benzin</strong><br><strong>&nbsp;  petróleum</strong><br><strong>&nbsp;  gázolaj</strong><br><strong>&nbsp;  kenőolaj</strong><br><strong>&nbsp;  pakura </strong><br></p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>8.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>false</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering></answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <subquestion format="html">
+       <text><![CDATA[<p>jellemzően C<sub>16</sub>-C<sub>28</sub> paraffinok keveréke</p>]]></text>
+       <answer fraction="" format="">
+         <text>kenőolaj</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>mozdonyok és teherautók üzemeltetésére használják</p>]]></text>
+       <answer fraction="" format="">
+         <text>gázolaj</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>tisztított formája a kerozin</p>]]></text>
+       <answer fraction="" format="">
+         <text>petróleum</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>minőségét alkohol hozzáadásával is javíthatják</p>]]></text>
+       <answer fraction="" format="">
+         <text>benzin</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>belőle csökkentett nyomáson gázolajat is előállítanak</p>]]></text>
+       <answer fraction="" format="">
+         <text>pakura </text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>50-150 °C között desztillált párlat</p>]]></text>
+       <answer fraction="" format="">
+         <text>benzin</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>régebben világításra használt folyadék</p>]]></text>
+       <answer fraction="" format="">
+         <text>petróleum</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+     <subquestion format="html">
+       <text><![CDATA[<p>350 °C feletti hőmérsékleten vákuumdesztillált párlat</p>]]></text>
+       <answer fraction="" format="">
+         <text>kenőolaj</text>
+         <feedback format="">
+           <text></text>
+         </feedback>
+       </answer>
+     </subquestion>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_43 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az oxigéntartalmú oldószerekben a jód barna színnel oldódik, mert az oxigént nem tartalmazó oldószerekben oldódik lila színnel.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az oxigéntartalmú oldószerekben a jód barna színnel oldódik, mert az oxigént nem tartalmazó oldószerekben oldódik lila színnel.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_44 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A propánnak és a butánnak is vannak konstitúciós izomerjei, mert mindkettő lehet nyílt láncú és gyűrűs szerkezetű is.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A propánnak és a butánnak is vannak konstitúciós izomerjei, mert mindkettő lehet nyílt láncú és gyűrűs szerkezetű is.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_45 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A ciklohexán stabilabb, mint a ciklobután, mert a ciklohexán minden szénatomja körül tetraéderes a ligandumok elrendeződése.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A ciklohexán stabilabb, mint a ciklobután, mert a ciklohexán minden szénatomja körül tetraéderes a ligandumok elrendeződése.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_46 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az izobután 25°C-on gázhalmazállapotú vegyület, mert a földgázban is megtalálható.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az izobután 25°C-on gázhalmazállapotú vegyület, mert a földgázban is megtalálható.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_47 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az alkánok homológ sorának egymást követő tagjai csak egy metil-csoportban különböznek egymástól, mert a metil-csoport egy szénatomos.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>Az alkánok homológ sorának egymást követő tagjai csak egy metil-csoportban különböznek egymástól, mert a metil-csoport egy szénatomos.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_48 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A 80-as oktánszámú benzin 80% izooktánt és 20% n-heptánt tartalmaz, mert a benzin oktánszámát az izooktántartalma adja.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A 80-as oktánszámú benzin 80% izooktánt és 20% n-heptánt tartalmaz, mert a benzin oktánszámát az izooktántartalma adja.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_49 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A húsz szénatomnál nagyobb paraffinok sűrűsége nagyobb a víz sűrűségénél, mert ezek moláris tömege már jóval nagyobb, mint a vízé.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A húsz szénatomnál nagyobb paraffinok sűrűsége nagyobb a víz sűrűségénél, mert ezek moláris tömege már jóval nagyobb, mint a vízé.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+   <question type="multichoice">
+     <name>
+       <text><![CDATA[<p>57_50 RA. Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A krakkolás oxigénigényes folyamat, mert ekkor a nagyobb szénatomszámú szénhidrogénekből oxidációval kis szénatomszámú, értékes vegyületek keletkeznek.</p>]]></text>
+     </name>
+     <questiontext format="html">
+       <text><![CDATA[<p>Állapítsa meg az összetett állítás igazságtartalmát!</p><p>A krakkolás oxigénigényes folyamat, mert ekkor a nagyobb szénatomszámú szénhidrogénekből oxidációval kis szénatomszámú, értékes vegyületek keletkeznek.</p>]]></text>
+     </questiontext>
+     <generalfeedback format="html">
+       <text></text>
+     </generalfeedback>
+     <defaultgrade>1.0000000</defaultgrade>
+     <penalty>0.3333333</penalty>
+     <hidden>0</hidden>
+     <single>true</single>
+     <shuffleanswers>true</shuffleanswers>
+     <answernumbering>abc</answernumbering>
+     <correctfeedback format="html">
+       <text></text>
+     </correctfeedback>
+     <partiallycorrectfeedback format="html">
+       <text></text>
+     </partiallycorrectfeedback>
+     <incorrectfeedback format="html">
+       <text></text>
+     </incorrectfeedback>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, a második magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Az állítás mindkét fele igaz, de a második nem magyarázza az elsőt.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás első fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="0" format="html">
+       <text><![CDATA[<p>Csak az állítás második fele igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+     <answer fraction="100" format="html">
+       <text><![CDATA[<p>Az állítás egyik fele sem igaz.</p>]]></text>
+       <feedback format="html">
+         <text></text>
+       </feedback>
+     </answer>
+   </question>
+ </quiz>
