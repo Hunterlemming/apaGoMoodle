@@ -214,10 +214,10 @@
    </question>
    <question type="multichoice">
      <name>
-       <text>5. Többszörös választás:szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?</text>
+       <text>5. Többszörös választás: szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?</text>
      </name>
      <questiontext format="html">
-       <text><![CDATA[<p>Többszörös választás:szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?</p>]]></text>
+       <text><![CDATA[<p>Többszörös választás: szigorú, 2 jó Mely adatok szükségesek a relatív atomtömeg kiszámításához?</p>]]></text>
      </questiontext>
      <generalfeedback format="html">
        <text></text>
