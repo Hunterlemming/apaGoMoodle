@@ -2,10 +2,15 @@ package output
 
 import (
 	"encoding/xml"
+	"fmt"
 	"os"
+	"time"
 )
 
-func WriteFile(fileName string, quiz *Quiz) {
+func WriteFile(quiz *Quiz) {
+	os.Mkdir(OutputDir, os.ModeDir)
+	fileName := fmt.Sprint(OutputDir, "/", time.Now().Format("2006-01-02T15-04-05"), ".xml")
+
 	header := []byte(xml.Header)
 	content, _ := xml.MarshalIndent(*quiz, " ", "  ")
 

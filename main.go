@@ -8,17 +8,7 @@ import (
 	"GoMoodle/util/docx"
 )
 
-// TODO: Replace this with terminal input
-// const inputName = "./assets/input/assoc-test-2.xml"
-const inputName = "./assets/input/mult-ans-test.xml"
-
-// TODO: Replace this with terminal input
-const outputName = "./assets/output/out.xml"
-
-const (
-	inputDoc  = "./input.docx"
-	outputXML = "./output.xml"
-)
+const inputDoc = "./input.docx"
 
 func main() {
 	sourceName, err := docx.Unzip(inputDoc)
@@ -29,7 +19,7 @@ func main() {
 
 	questions := input.ParseFile(sourceName)
 	quiz := ConvertQuestionsToQuiz(questions)
-	output.WriteFile(outputXML, quiz)
+	output.WriteFile(quiz)
 }
 
 func init() {
