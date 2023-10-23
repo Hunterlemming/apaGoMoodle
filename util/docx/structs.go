@@ -31,10 +31,15 @@ type T struct {
 	Content   string   `xml:",chardata"`
 }
 
+type BR struct {
+	XMLName xml.Name `xml:"br"`
+}
+
 type R struct {
 	XMLName xml.Name `xml:"r"`
 	RPr     RPr      `xml:"rPr"`
 	T       T        `xml:"t"`
+	BR      BR       `xml:"br"`
 }
 
 type P struct {

@@ -43,13 +43,14 @@ func formatOutput(original []byte) (formatted []byte) {
 			continue
 		}
 
-		if i+4 < n && string(original[i:i+5]) == "&#xA;" {
+		if i+3 < n && string(original[i:i+4]) == "#xA;" {
 			formatted = append(formatted, byte('\n'))
-			i += 5
+			i += 4
 			continue
 		}
 
 		if i+4 < n && string(original[i:i+5]) == "&#34;" {
+			fmt.Println("yo")
 			formatted = append(formatted, byte('"'))
 			i += 5
 			continue

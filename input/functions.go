@@ -79,18 +79,23 @@ func parseLine(decoder *xml.Decoder, startElement *xml.StartElement) (result Lin
 	var content []string
 	for _, element := range paragraph.R {
 		align := element.RPr.VertAlign.Val
+		addedString := element.T.Content
+		if element.BR.XMLName.Local == "br" {
+			content = append(content, "#xA;")
+		}
+
 		if align == "" {
-			content = append(content, element.T.Content)
+			content = append(content, addedString)
 			continue
 		}
 
 		if align == "subscript" {
-			content = append(content, fmt.Sprintf("<sub>%s</sub>", element.T.Content))
+			content = append(content, fmt.Sprintf("<sub>%s</sub>", addedString))
 			continue
 		}
 
 		if align == "superscript" {
-			content = append(content, fmt.Sprintf("<sup>%s</sup>", element.T.Content))
+			content = append(content, fmt.Sprintf("<sup>%s</sup>", addedString))
 			continue
 		}
 	}

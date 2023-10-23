@@ -7,7 +7,7 @@ import (
 var questionDocMatcher *regexp.Regexp
 
 const (
-	questionDocRE = `^([\p{N}\p{L}]+[.)]* *)(.*)$` // 2. Asdada; A) Asdada
+	questionDocRE = `^([\p{N}\p{L}_\- ]+\. )(.*)` // 2. Asdada; A) Asdada
 )
 
 func InitRegexMatchers() {
